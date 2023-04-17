@@ -1,0 +1,28 @@
+<div class="main-container">
+  <div class="row min-height-600 no-flex-wrap">
+    <div class="card col-md-2 me-2" >
+      <div>
+        <h5>Welcome To Esprit V1.0</h5>
+      </div>
+      <div>
+        <app-memu></app-memu>
+      </div>
+    </div>
+
+    <div class="card col-md-10 ps-0 pe-0 background-grey border-none">
+      <div class="col ps-0 pe-0 d-flex flex-column justify-content-between">
+        <div class="card min-height-80">
+          header
+        </div>
+        <div class="card mt-2 mb-2 min-height-780">
+          <router-outlet></router-outlet>
+        </div>
+        <div class="card min-height-80">
+          footer
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
